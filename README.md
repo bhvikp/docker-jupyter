@@ -1,4 +1,4 @@
-# docker-spark-jupyter
+# docker-jupyter
 A very light-weight dockerized jupyter notebook environment with python.
 
 ### Features!
