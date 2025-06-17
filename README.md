@@ -4,21 +4,21 @@ A very light-weight dockerized jupyter notebook environment with python.
 ### Features!
 
     - Jupyter Notebook
-    - Python 3.7.7
+    - Python 3.11
 
 ### Installation
 
 Pull docker image from docker hub repository
 ```sh
-$ docker pull bhavik9243/datascience-jupyter:latest
+$ docker pull bhvikp/data-notebook:latest
 ```
 
 ### Run/Start/Stop Container
 
 ```sh
-$ docker run -itd --name ds_book --hostname localhost -v $PWD/notebooks:/root/notebooks -p 8888:8888 bhavik9243/datascience-jupyter:latest
-$ docker stop ds_book
-$ docker start ds_book
+$ docker run -itd --name data-notebook --hostname 127.0.0.0 -v $PWD/notebooks:/root/notebooks -p 8888:8888 bhvikp/data-notebook:latest
+$ docker stop data-notebook
+$ docker start data-notebook
 ```
 
 ### Jupyter Access
